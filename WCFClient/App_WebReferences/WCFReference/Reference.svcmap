@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c9676015-25e3-4b82-ad09-b65e390beeb3" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1616/GrantRe.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GrantRe.disco" MetadataType="Disco" ID="18e287bb-6a31-4141-ad4c-97c1e45e5a63" SourceId="1" SourceUrl="http://localhost:1616/GrantRe.svc?disco" />
+    <MetadataFile FileName="GrantRe.xsd" MetadataType="Schema" ID="273f83ce-bf5a-4c16-8143-e8f740a55fe9" SourceId="1" SourceUrl="http://localhost:1616/GrantRe.svc?xsd=xsd1" />
+    <MetadataFile FileName="GrantRe.wsdl" MetadataType="Wsdl" ID="2c9c3400-fa79-4056-9548-4aa0859549f3" SourceId="1" SourceUrl="http://localhost:1616/GrantRe.svc?wsdl" />
+    <MetadataFile FileName="GrantRe1.xsd" MetadataType="Schema" ID="626b0e40-1859-46b4-8d93-fe84988d7da2" SourceId="1" SourceUrl="http://localhost:1616/GrantRe.svc?xsd=xsd2" />
+    <MetadataFile FileName="GrantRe2.xsd" MetadataType="Schema" ID="c4ad9922-42b3-4c26-a972-9b0b662af515" SourceId="1" SourceUrl="http://localhost:1616/GrantRe.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
