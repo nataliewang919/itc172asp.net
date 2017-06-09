@@ -1,0 +1,29 @@
+﻿@model IEnumerable<FinalAssignment.Models.GrantRequestInfo>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table class="table">
+    <tr>
+        <th>@Html.DisplayNameFor(model => model.GrantRequestDate)</th>
+        <th>@Html.DisplayNameFor(model => model.GrantRequestAmount)</th>
+        <th>@Html.DisplayNameFor(model => model.GrantRequestExplanation)</th>
+        <th>@Html.DisplayNameFor(model => model.GrantRequestStatus)</th>
+        <th>@Html.DisplayNameFor(model => model.GrantReviewDate)</th>
+        <th>@Html.DisplayNameFor(model => model.GrantAllocationAmount)</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(model => item.GrantRequestDate)</td>
+            <td>@Html.DisplayFor(model => item.GrantRequestAmount)</td>
+            <td>@Html.DisplayFor(model => item.GrantRequestExplanation)</td>
+            <td>@Html.DisplayFor(model => item.GrantRequestStatus)</td>
+            <td>@Html.DisplayFor(model => item.GrantReviewDate)</td>
+            <td>@Html.DisplayFor(model => item.GrantAllocationAmount)</td>
+        </tr>
+    }
+</table>
